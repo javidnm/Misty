@@ -1,0 +1,106 @@
+section#first{
+    background-image: url("/img/bg-masthead.jpg");
+    height: 100vh;
+    background-blend-mode: color;
+    background-color: #0000007d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.startBootstrap, li>a{
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none !important;
+    font-size: 20px
+    
+}
+header a:hover{
+color: white;
+}
+header {
+    position: fixed;
+    width: 100%;
+    
+    padding-top: 30px;
+}
+header .col-8{
+    justify-content: flex-end
+}
+li{
+    list-style-type: none;
+    margin-right: 30px;
+}
+li:nth-last-child(){
+    margin-right: 0;
+}
+.scale{
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+    color: transparent;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgb(255 255 255 / 0%));
+    -webkit-background-clip: text;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.free{
+    max-width: 30rem;
+    font-size: 1.25rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+.text a{
+    color: #fff;
+    background-color: #4f837f;
+    border-color: #4a7b78;
+    text-decoration: none;
+    widows: 180px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 25px;
+    margin-top: 20px
+}
+#second{
+    padding-top: 10rem;
+    background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+.secondText{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.secondText h2{
+    color:white;
+}
+.secondText p{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+#second img,#third img,#fourth img{
+    width: 100%;
+}
+#third{
+    padding: 10rem 0;
+}
+
+.thirdText p{
+    color: rgba(0, 0, 0, 0.5)
+}
+.misty{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.misty h4{
+    color: white;
+}
+.misty p{
+    color: rgba(255, 255, 255, 0.5) !important;
+}
